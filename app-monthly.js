@@ -1,4 +1,4 @@
-ju// ========== APP STATE ==========
+// ========== APP STATE ==========
 let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 let budgets = JSON.parse(localStorage.getItem('budgets')) || {
     food: 500000, transport: 300000, bills: 500000, study: 400000,
